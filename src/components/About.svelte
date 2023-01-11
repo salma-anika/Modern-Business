@@ -24,23 +24,23 @@
         <img src="cover1.jpg" class="mt-10 w-[100%] max-h-[450px] m-auto"/>
         
     </div>
-    <div class="flex flex-row justify-center items-center max-xs:flex-col ">
-        <div class=" flex md:flex-row flex-col sm:py-16 py-2">
-            <h2 class="text-[20px] text-4xl font-semibold max-xs:leading-[76.8px] w-full">It's all about the
+    <div class="flex flex-row justify-between items-center">
+        <div class=" col-span-4  py-8">
+            <h2 class="text-7xl font-semibold max-xs:leading-[76.8px] w-full text-start justify-start">It's all about the
                 <br>people
                 
             </h2>
         </div>
         <div class="  justify-end items-center md:ml-10 ml-0  mt-20 relative">
-            <p class='flex max-w-[470px] mt-5 font-poppins font-normal text-black text-[18px] leading-[30.8px]'>
+            <p class='flex max-w-[470px] mt-5 font-poppins font-normal text-gray-600 text-[24px] leading-[30.8px]'>
                "Software development refers to a set of computer science activities dedicated to the process of creating, designing, deploying and supporting software.
                 Software itself is the set of instructions or programs that tell a computer what to do. "
              
                 </p>
-                <div class="flex flex-row mt-4">
+                <div class="flex flex-row mt-20">
                 
-                <img src="people02.png" class=" w-[8%] ml-1"/>
-                <h1 class=" uppercase text-[12px] font-bold mr-6 ml-1">Austin
+                <img src="people02.png" class=" w-[12%] ml-1"/>
+                <h1 class=" uppercase text-[18px] font-bold mr-10 ml-6">Austin
                     <br class="font-normal">Software Engineer
                 </h1>
                 <img src="arrow-right.png" class=" w-[5%] ml-4"/>
