@@ -4,6 +4,7 @@
     import Hero from '../components/Hero.svelte';
 	import About from '../components/About.svelte';
 	import Office from '../components/Office.svelte';
+	import Career from '../components/Career.svelte';
   </script>
       <div class=" w-[100%] overflow-hidden bg-black">
         <div class="px-6 sm:px-16 flex justify-center items-center">
@@ -27,3 +28,8 @@
                     <Office/>
                     </div>
                           </div>
+                          <div class=' bg-white  justify-center items-start mt-[100px] w-[60%] m-auto'>
+                            <div class='w-[80%]'>
+                            <Career/>
+                            </div>
+                                  </div>
