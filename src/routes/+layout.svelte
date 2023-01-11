@@ -23,13 +23,13 @@
             <About/>
             </div>
                   </div>
-                  <div class='bg-black flex justify-center items-start mt-[100px] w-[60%] m-auto'>
-                    <div class=' w-[70%]'>
+                  <div class='bg-black flex justify-center items-start mt-[100px]'>
+                    <div class=' xl:max-w-[1280px] w-full'>
                     <Office/>
                     </div>
                           </div>
-                          <div class=' bg-white  justify-center items-start mt-[100px] w-[60%] m-auto'>
-                            <div class='w-[80%]'>
+                          <div class=' bg-white  justify-center items-start mt-[100px] '>
+                            <div class='xl:max-w-[1280px] w-full'>
                             <Career/>
                             </div>
                                   </div>
