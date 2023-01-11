@@ -19,7 +19,7 @@
     </div>
           </div>
           <div class=' bg-white px-6 sm:px-16 flex justify-center items-start'>
-            <div class='xl:max-w-[1280px] w-full'>
+            <div class='w-[100%]'>
             <About/>
             </div>
                   </div>
