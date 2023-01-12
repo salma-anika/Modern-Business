@@ -10,21 +10,23 @@
             quite broad but that it is things like a design phase, a development phase. 
            
             </p>
-    <div class='flex flex-row justify-between items-center w-full'>
+    <div class='flex flex-row justify-between items-center w-full max-xs:flex-col'>
         
 <h1 class='flex-1 font-poppins font-semibold  text-[82px] text-white ss:leading-[100px] leading-[75px] uppercase max-xs:text-[52px]'>
 Work directly <br class='sm:block hidden'/> {" "}
 <span class='uppercase'>With top us Tech</span>{" "}
 
 </h1>
-<div class='ss:flex justify-center items-start max-xs:flex-row'>
+<div class='ss:flex hidden justify-center items-start '>
     <Apply/>
 </div>
     </div>
     <h1 class='flex-1 font-poppins font-semibold  text-[82px] text-white ss:leading-[100px] leading-[75px] w-full uppercase max-xs:text-[52px]'>
  companies
 </h1>
-
+<div class='ss:hidden flex justify-center items-start '>
+    <Apply/>
+</div>
     </div>
    
   </section>

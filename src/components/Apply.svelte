@@ -1,4 +1,4 @@
-<div class=' justify-start items-start w-[140px] h-[140px] rounded-full bg-blue-gradient p-[2px] cursor-pointer  max-xl:ml-[-520px] mt-[40px]'>
+<div class=' justify-start items-start w-[140px] h-[140px] rounded-full bg-blue-gradient p-[2px] cursor-pointer mt-[40px]'>
     <div class='flex justify-center items-center flex-row bg-text-gradient w-[100%] h-[100%] rounded-full'>
         <div class='justify-center items-start '>
             
