@@ -1,6 +1,6 @@
-<section class="mt-[100px]" id="about">
+<section class="mt-[100px]" id="about" >
     <hr class=" border-[0.5px] border-black w-[100%] m-auto">
-    <div class=" flex flex-row justify-between items-center  ">
+    <div class=" flex flex-row justify-between items-center max-xs:flex-col max-md:flex-col ">
 <div class=" col-span-4  py-8 ">
     <h2 class=" text-7xl font-semibold max-xs:leading-[76.8px] w-full text-start justify-start">Built with your
         <br>well-being in
@@ -16,7 +16,7 @@
         <div class="flex flex-row mt-6">
         <h3 class="text-cyan-600 font-semibold text-[24px] border-b-[4px] border-cyan-600 ">See Video</h3>
        
-        <img src="arrow-right.png" class=" w-[5%] ml-1"/>
+       
         </div>
 </div>
     </div>
@@ -24,7 +24,7 @@
         <img src="cover1.jpg" class="mt-10 w-[100%] max-h-[450px] m-auto"/>
         
     </div>
-    <div class="flex flex-row justify-between items-center">
+    <div class="flex flex-row justify-between items-center max-xs:flex-col max-md:flex-col">
         <div class=" col-span-4  py-8">
             <h2 class="text-7xl font-semibold max-xs:leading-[76.8px] w-full text-start justify-start">It's all about the
                 <br>people
@@ -39,11 +39,11 @@
                 </p>
                 <div class="flex flex-row mt-20">
                 
-                <img src="people02.png" class=" w-[12%] ml-1"/>
-                <h1 class=" uppercase text-[18px] font-bold mr-10 ml-6">Austin
+                <img src="people02.png" class=" w-[12%] ml-1 max-xs:w-[25%]"/>
+                <h1 class=" uppercase text-[18px] font-bold mr-10 ml-6 ">Austin
                     <br class="font-normal">Software Engineer
                 </h1>
-                <img src="arrow-right.png" class=" w-[5%] ml-4"/>
+             
                 </div>
         </div>
             </div>
