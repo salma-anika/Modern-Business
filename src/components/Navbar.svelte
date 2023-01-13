@@ -1,9 +1,14 @@
+
 <script>
-    
-    import '../routes/index';
+      import '../routes/index';
 import Button from './Button.svelte';
 
-</script>
+    let showMenu = false;
+  
+    function toggleNavbar() {
+      showMenu = !showMenu;
+    }
+  </script>
 
 <nav class=" w-[100%] flex py-6 justify-between items-center navbar">
     <img src="logo.svg"
@@ -30,14 +35,16 @@ import Button from './Button.svelte';
     </div>
        
 
-    
-    
-    <div class="sm:hidden flex  flex-1 justify-end items-center uppercase">
+    <!-- svelte-ignore a11y-click-events-have-key-events -->
+    <div on:click={toggleNavbar} class="sm:hidden flex  flex-1 justify-end items-center uppercase">
         <img src="menu.svg"
         alt="menu"
         class="w-[28px] h-[28px] object-contain"/>
       
-        <div class=" p-6 bg-gradient-to-b from-gray-900 to-gray-600 absolute top-20 right-0 mx-4 my-2 min-w-[140px] rounded-xl sidebar">
+        <div class=" p-6 bg-gradient-to-b from-gray-900 to-gray-600 absolute top-20 right-0 mx-4 my-2 min-w-[140px] rounded-xl sidebar
+        {showMenu
+            ? 'flex'
+            : 'hidden'}">
         <ul class ="list-none flex flex-col justify-end items-center flex-1">
             <li class="font-normal font-poppins cursor-pointer text-[16px]  text-white mr-5 ">  
                 <a href="/about"> about us</a> 
@@ -57,3 +64,4 @@ import Button from './Button.svelte';
       </div>
 
 </nav>
+
