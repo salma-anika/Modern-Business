@@ -7,7 +7,7 @@
 	import Career from '../components/Career.svelte';
 	import Footer from '../components/Footer.svelte';
   </script>
-      <div class=" w-[100%] overflow-hidden bg-black">
+      <div class=" w-full overflow-hidden bg-black">
         <div class="px-6 sm:px-16 flex justify-center items-center">
           <div class='xl:max-w-[1280px] w-full'>
             <Navbar/>
@@ -20,7 +20,7 @@
     </div>
           </div>
           <div class=' bg-white px-6 sm:px-16 flex justify-center items-start'>
-            <div class='w-[100%]'>
+            <div class='xl:max-w-[1280px] w-full'>
             <About/>
             </div>
                   </div>
