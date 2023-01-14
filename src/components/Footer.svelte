@@ -1,5 +1,5 @@
 <section class='flex justify-center items-center sm:py-16 py-6 flex-col'>
-    <div class='flex justify-center items-start max-md:flex-col flex-col mb-8 w-full  '>
+    <div class='flex justify-center items-start max-sm:flex-col max-md:flex-row flex-col mb-8 w-full  '>
     <div class=' flex flex-1 flex-col  ml-10 col-span-6 justify-start '>
       <img src="logo.svg" class="w-[206px] h-[72px]  text-center max-xs:text-left" alt="logo"/>
     <p class='max-w-[310px] mt-4 font-poppins font-normal text-dimWhite text-[16px] leading-[30.8px] text-left'>
